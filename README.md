@@ -1,2 +1,3 @@
-# xamarin-shortcut-badges
+# Xamarin Shortcut Badges
+
 Xamarin Shortcut Badges
