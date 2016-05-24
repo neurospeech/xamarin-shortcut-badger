@@ -1,10 +1,22 @@
-# Xamarin Shortcut Badges
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-Xamarin Shortcut Badges
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
 
-Many thanks to https://github.com/leolin310148/ShortcutBadger
-
-This code is published under MIT license, but you must use this library in accordance with license mentioned at https://github.com/leolin310148/ShortcutBadger
+namespace XamarinShortcutBadger
+{
+    /// <summary>
+    /// Sets shortcut badges...
+    /// </summary>
+    public class Badger
+    {
 
         /// <summary>
         /// Creates a badge
@@ -22,3 +34,5 @@ This code is published under MIT license, but you must use this library in accor
         public static void Remove(Context context) {
             ME.Leolin.Shortcutbadger.ShortcutBadger.RemoveCount(context);
         }
+    }
+}

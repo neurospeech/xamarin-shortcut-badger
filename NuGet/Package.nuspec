@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.ShortcutBadger</id>
+    <version>1.1.402</version>
+    <title>Xamarin ShortcutBadger for Android</title>
+    <authors>akash.kava</authors>
+    <owners></owners>
+    <description>
+
+      ME.Leolin.Shortcutbadger.ShortcutBadger.ApplyCount(context, count);
+
+      ME.Leolin.Shortcutbadger.ShortcutBadger.RemoveCount(context);
+      
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://github.com/neurospeech/xamarin-shortcut-badger</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/leolin310148/ShortcutBadger/blob/master/LICENSE</licenseUrl>
+    <copyright>Copyright  2016</copyright>
+    <references></references>
+    <tags>xamarin, android, shortcut, badge, badges, badger</tags>
+  </metadata>
+  <files>
+    <file src="..\XamarinShortcutBadger\bin\Debug\XamarinShortcutBadger.*" target="lib\MonoAndroid10" />
+  </files>
+</package>
