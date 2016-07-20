@@ -44,7 +44,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\ShortcutBadger-1.1.4.aar" />
+    <LibraryProjectZip Include="Jars\ShortcutBadger-1.1.8.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
