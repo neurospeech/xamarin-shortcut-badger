@@ -22,3 +22,4 @@ This code is published under MIT license, but you must use this library in accor
         public static void Remove(Context context) {
             ME.Leolin.Shortcutbadger.ShortcutBadger.RemoveCount(context);
         }
+
