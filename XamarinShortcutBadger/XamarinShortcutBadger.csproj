@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+  <Compile Include="Badger.cs" />
     <LibraryProjectZip Include="Jars\ShortcutBadger-1.1.22.aar" />
    <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
