@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>MonoAndroid12.0;</TargetFrameworks>
+    <IsBindingProject>true</IsBindingProject>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>default</LangVersion>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>

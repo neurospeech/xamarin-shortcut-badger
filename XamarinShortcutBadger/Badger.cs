@@ -26,7 +26,7 @@ namespace Xamarin.Android.ShortcutBadger
         public static void ApplyCount(Context context, int count)
         {
 
-            ME.Leolin.Shortcutbadger.ShortcutBadger.With(context).Count(count);
+            ME.Leolin.Shortcutbadger.ShortcutBadger.ApplyCount(context, count);
         }
 
         /// <summary>
@@ -35,7 +35,7 @@ namespace Xamarin.Android.ShortcutBadger
         /// <param name="context"></param>
         public static void Remove(Context context)
         {
-            ME.Leolin.Shortcutbadger.ShortcutBadger.With(context).Remove();
+            ME.Leolin.Shortcutbadger.ShortcutBadger.RemoveCount(context);
         }
     }
 }
