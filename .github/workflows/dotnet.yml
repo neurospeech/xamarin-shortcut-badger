@@ -24,7 +24,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: msbuild --no-restore
+      run: msbuild
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Pack
