@@ -26,7 +26,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: msbuild /t:pack
+      run: msbuild
     # - name: Pack
     #  run: dotnet pack --no-restore
     - name: Publish Eternity
